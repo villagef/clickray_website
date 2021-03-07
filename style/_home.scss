@@ -44,6 +44,41 @@
 
 .sectionTwo {
   width: 100vw;
-  height: 80vh;
+  min-height: 70vh;
   position: relative;
+  text-align: center;
+
+  &__title {
+    max-width: 500px;
+    margin-top: 30%;
+  }
+
+  &__subtitle {
+    max-width: 600px;
+    color: #ddd;
+  }
+
+  &__boxes {
+    width: 100%;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__box {
+    width: 30%;
+    padding: 20px;
+    color: black;
+
+    h3 {
+      margin: 20px 0;
+      font-size: 1.35rem;
+    }
+
+    p {
+      color: #ddd;
+    }
+  }
 }

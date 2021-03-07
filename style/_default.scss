@@ -4,6 +4,7 @@ $MainColor: #4044e6;
 $SecondColor: #fff;
 $LogoColor: #1a3c8d;
 $FontColor: #fff;
+$FontColorDarker: rgb(218, 218, 218);
 $FontColorDark: rgb(26, 26, 26);
 
 @mixin tablet {
@@ -34,4 +35,7 @@ html {
   width: 100vh;
   max-width: 1300px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

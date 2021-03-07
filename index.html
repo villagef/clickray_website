@@ -33,94 +33,106 @@
   <body>
     <!-- ======================NAVBAR=========================== -->
     <nav class="navbar navbar-expand-md fixed-top bg-light">
-        <div class="container">
+      <div class="container">
+        <a class="navbar-brand" href="#">VANADYL</a>
 
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#nav"
+        >
+          <span style="font-size: 2.5em; color: Tomato; border: none">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
 
-      <a class="navbar-brand" href="#">VANADYL</a>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark px-3" href="#">Home</a>
+            </li>
 
-      <button
-        type="button"
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#nav"
-      >
-        <span style="font-size: 2.5em; color: Tomato; border: none">
-          <i class="fas fa-bars"></i>
-        </span>
-      </button>
+            <li class="nav-item dropdown" data-toggle="dropdown">
+              <a class="nav-link text-dark px-3" href="#">Pages</a>
 
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-dark px-3" href="#">Home</a>
-          </li>
+              <div class="dropdown-menu bg-dark">
+                <a class="dropdown-item text-light" href="#">About</a>
+                <a class="dropdown-item text-light" href="#">Resources</a>
+                <a class="dropdown-item text-light" href="#">Services</a>
+                <a class="dropdown-item text-light" href="#">Product</a>
+                <a class="dropdown-item text-light" href="#">404</a>
+                <a class="dropdown-item text-light" href="#">Privacy Policy</a>
+                <a class="dropdown-item text-light" href="#">Search Results</a>
+              </div>
+            </li>
 
-          <li class="nav-item dropdown" data-toggle="dropdown">
-            <a class="nav-link text-dark px-3" href="#"
-              >Pages</a
-            >
+            <li class="nav-item">
+              <a class="nav-link text-dark px-3" href="#">Landing & Mailing</a>
+            </li>
 
-            <div class="dropdown-menu bg-dark">
-              <a class="dropdown-item text-light" href="#">About</a>
-              <a class="dropdown-item text-light" href="#">Resources</a>
-              <a class="dropdown-item text-light" href="#">Services</a>
-              <a class="dropdown-item text-light" href="#">Product</a>
-              <a class="dropdown-item text-light" href="#">404</a>
-              <a class="dropdown-item text-light" href="#">Privacy Policy</a>
-              <a class="dropdown-item text-light" href="#">Search Results</a>
-            </div>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-dark px-3" href="#">Landing & Mailing</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-dark px-3" href="#">Blog</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link text-dark px-3" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </nav>
 
     <!-- =====================SECTION 1======================== -->
 
     <section class="sectionOne">
-        <div class="sectionOne__content">
-            <h1 class="sectionOne__title">Lorem ipsum</h1>
-            <p class="sectioOne__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="sectionOne__dashboard">
-          <img src="img/dashboard.png" alt="" srcset="">
-        </div>
+      <div class="sectionOne__content">
+        <h1 class="sectionOne__title">Lorem ipsum</h1>
+        <p class="sectioOne__subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="sectionOne__dashboard">
+        <img src="img/dashboard.png" alt="" srcset="" />
+      </div>
     </section>
 
-        <!-- =====================SECTION 2======================== -->
+    <!-- =====================SECTION 2======================== -->
 
     <section class="sectionTwo">
       <div class="wrapper">
-        <div class="sectionTwo__content">
-            <h1 class="sectionTwo__title">Lorem ipsum dolor sit amet, consecetur.</h1>
-            <p class="sectionTwo__subtitle">Lorem ipsum dolor sit amet, consecetur.</p>
-        </div>
+        <h3 class="sectionTwo__title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit
+        </h3>
+        <p class="sectionTwo__subtitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit           Lorem ipsum dolor sit amet consectetur adipisicing elit
+        </p>
+
         <div class="sectionTwo__boxes">
-            <div class="sectionTwo__box">
-              <i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>
-                <h3>Nullo parta, iacus</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui aut nostrum, dolores in aperiam similique laborum magnam eaque vel.</p>
-            </div>
-            <div class="sectionTwo__box">
-              <i class="bi bi-umbrella"></i>
-                <h3>Nullo parta, iacus</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui aut nostrum, dolores in aperiam similique laborum magnam eaque vel.</p>
-            </div>
-            <div class="sectionTwo__box">
-              <i class="bi bi-umbrella"></i>
-                <h3>Nullo parta, iacus</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui aut nostrum, dolores in aperiam similique laborum magnam eaque vel.</p>
-            </div>
+          <div class="sectionTwo__box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+              <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+              <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+            </svg>
+            <h3>Nulla porta, lacus</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, molestias? Voluptas hic aliquam nulla officiis.</p>
+          </div>
+          <div class="sectionTwo__box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-umbrella" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 0a.5.5 0 0 1 .5.5v.514C12.625 1.238 16 4.22 16 8c0 0 0 .5-.5.5-.149 0-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394A3.166 3.166 0 0 0 13 7.5c-.638 0-1.178.213-1.564.434a3.484 3.484 0 0 0-.555.394l-.025.023-.003.003s-.204.146-.353.146-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394 3.3 3.3 0 0 0-1.064-.39V13.5H8h.5v.039l-.005.083a2.958 2.958 0 0 1-.298 1.102 2.257 2.257 0 0 1-.763.88C7.06 15.851 6.587 16 6 16s-1.061-.148-1.434-.396a2.255 2.255 0 0 1-.763-.88 2.958 2.958 0 0 1-.302-1.185v-.025l-.001-.009v-.003s0-.002.5-.002h-.5V13a.5.5 0 0 1 1 0v.506l.003.044a1.958 1.958 0 0 0 .195.726c.095.191.23.367.423.495.19.127.466.229.879.229s.689-.102.879-.229c.193-.128.328-.304.424-.495a1.958 1.958 0 0 0 .197-.77V7.544a3.3 3.3 0 0 0-1.064.39 3.482 3.482 0 0 0-.58.417l-.004.004S5.65 8.5 5.5 8.5c-.149 0-.352-.145-.352-.145l-.004-.004a3.482 3.482 0 0 0-.58-.417A3.166 3.166 0 0 0 3 7.5c-.638 0-1.177.213-1.564.434a3.482 3.482 0 0 0-.58.417l-.004.004S.65 8.5.5 8.5C0 8.5 0 8 0 8c0-3.78 3.375-6.762 7.5-6.986V.5A.5.5 0 0 1 8 0zM6.577 2.123c-2.833.5-4.99 2.458-5.474 4.854A4.124 4.124 0 0 1 3 6.5c.806 0 1.48.25 1.962.511a9.706 9.706 0 0 1 .344-2.358c.242-.868.64-1.765 1.271-2.53zm-.615 4.93A4.16 4.16 0 0 1 8 6.5a4.16 4.16 0 0 1 2.038.553 8.688 8.688 0 0 0-.307-2.13C9.434 3.858 8.898 2.83 8 2.117c-.898.712-1.434 1.74-1.731 2.804a8.687 8.687 0 0 0-.307 2.131zm3.46-4.93c.631.765 1.03 1.662 1.272 2.53.233.833.328 1.66.344 2.358A4.14 4.14 0 0 1 13 6.5c.77 0 1.42.23 1.897.477-.484-2.396-2.641-4.355-5.474-4.854z"/>
+            </svg>
+            <h3>Nulla porta, lacus</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, molestias? Voluptas hic aliquam nulla officiis.</p>
+          </div>
+          <div class="sectionTwo__box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-umbrella" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 0a.5.5 0 0 1 .5.5v.514C12.625 1.238 16 4.22 16 8c0 0 0 .5-.5.5-.149 0-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394A3.166 3.166 0 0 0 13 7.5c-.638 0-1.178.213-1.564.434a3.484 3.484 0 0 0-.555.394l-.025.023-.003.003s-.204.146-.353.146-.352-.145-.352-.145l-.004-.004-.025-.023a3.484 3.484 0 0 0-.555-.394 3.3 3.3 0 0 0-1.064-.39V13.5H8h.5v.039l-.005.083a2.958 2.958 0 0 1-.298 1.102 2.257 2.257 0 0 1-.763.88C7.06 15.851 6.587 16 6 16s-1.061-.148-1.434-.396a2.255 2.255 0 0 1-.763-.88 2.958 2.958 0 0 1-.302-1.185v-.025l-.001-.009v-.003s0-.002.5-.002h-.5V13a.5.5 0 0 1 1 0v.506l.003.044a1.958 1.958 0 0 0 .195.726c.095.191.23.367.423.495.19.127.466.229.879.229s.689-.102.879-.229c.193-.128.328-.304.424-.495a1.958 1.958 0 0 0 .197-.77V7.544a3.3 3.3 0 0 0-1.064.39 3.482 3.482 0 0 0-.58.417l-.004.004S5.65 8.5 5.5 8.5c-.149 0-.352-.145-.352-.145l-.004-.004a3.482 3.482 0 0 0-.58-.417A3.166 3.166 0 0 0 3 7.5c-.638 0-1.177.213-1.564.434a3.482 3.482 0 0 0-.58.417l-.004.004S.65 8.5.5 8.5C0 8.5 0 8 0 8c0-3.78 3.375-6.762 7.5-6.986V.5A.5.5 0 0 1 8 0zM6.577 2.123c-2.833.5-4.99 2.458-5.474 4.854A4.124 4.124 0 0 1 3 6.5c.806 0 1.48.25 1.962.511a9.706 9.706 0 0 1 .344-2.358c.242-.868.64-1.765 1.271-2.53zm-.615 4.93A4.16 4.16 0 0 1 8 6.5a4.16 4.16 0 0 1 2.038.553 8.688 8.688 0 0 0-.307-2.13C9.434 3.858 8.898 2.83 8 2.117c-.898.712-1.434 1.74-1.731 2.804a8.687 8.687 0 0 0-.307 2.131zm3.46-4.93c.631.765 1.03 1.662 1.272 2.53.233.833.328 1.66.344 2.358A4.14 4.14 0 0 1 13 6.5c.77 0 1.42.23 1.897.477-.484-2.396-2.641-4.355-5.474-4.854z"/>
+            </svg>
+            <h3>Nulla porta, lacus</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, molestias? Voluptas hic aliquam nulla officiis.</p>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section class="sectionThree">
+      
     </section>
 
     <script src="index.js"></script>
