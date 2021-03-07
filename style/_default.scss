@@ -4,6 +4,7 @@ $MainColor: #4044e6;
 $SecondColor: #fff;
 $LogoColor: #1a3c8d;
 $FontColor: #ddd;
+$FontColorDark: rgb(26, 26, 26);
 
 @mixin tablet {
   @media screen and (max-width: 768px) {
@@ -15,4 +16,15 @@ $FontColor: #ddd;
   @media screen and (max-width: 280px) {
     @content;
   }
-} ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Lato", sans-serif !important;
+}

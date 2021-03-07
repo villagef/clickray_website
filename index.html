@@ -1,23 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clickray-website</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+      integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style/style.css" />
-</head>
-<body>
+  </head>
+  <body>
+    <!-- ======================NAVBAR=========================== -->
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
 
-    
+
+      <a class="navbar-brand" href="#">VANADYL</a>
+
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#nav"
+      >
+        <span style="font-size: 2.5em; color: Tomato; border: none">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark px-3" href="#">Home</a>
+          </li>
+
+          <li class="nav-item dropdown" data-toggle="dropdown">
+            <a class="nav-link text-dark px-3" href="#"
+              >Pages</a
+            >
+
+            <div class="dropdown-menu bg-dark">
+              <a class="dropdown-item text-light" href="#">About</a>
+              <a class="dropdown-item text-light" href="#">Resources</a>
+              <a class="dropdown-item text-light" href="#">Services</a>
+              <a class="dropdown-item text-light" href="#">Product</a>
+              <a class="dropdown-item text-light" href="#">404</a>
+              <a class="dropdown-item text-light" href="#">Privacy Policy</a>
+              <a class="dropdown-item text-light" href="#">Search Results</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark px-3" href="#">Landing & Mailing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark px-3" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
