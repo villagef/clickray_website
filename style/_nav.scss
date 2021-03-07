@@ -1,9 +1,4 @@
-@import "colors";
-@import "media-queries";
-
 .navbar {
-  // background-color: rgba(22, 22, 22, 0.7);
-
   &-brand {
     padding: 0 30px;
 
@@ -24,7 +19,7 @@
 
     .nav-item,
     .dropdown-menu {
-      @include media-breakpoint-down(md) {
+      @include tablet {
         text-align: center;
       }
     }

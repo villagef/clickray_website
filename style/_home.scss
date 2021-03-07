@@ -1,0 +1,49 @@
+.sectionOne {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-y: visible;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: $MainColor;
+    opacity: 0.85;
+  }
+
+  &__content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: $FontColor;
+    z-index: 2;
+  }
+
+  &__dashboard {
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 80%;
+      transform: translateX(-50%);
+      z-index: 3;
+    }
+  }
+}
+
+.sectionTwo {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}

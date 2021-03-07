@@ -3,7 +3,7 @@
 $MainColor: #4044e6;
 $SecondColor: #fff;
 $LogoColor: #1a3c8d;
-$FontColor: #ddd;
+$FontColor: #fff;
 $FontColorDark: rgb(26, 26, 26);
 
 @mixin tablet {
@@ -27,4 +27,11 @@ $FontColorDark: rgb(26, 26, 26);
 body,
 html {
   font-family: "Lato", sans-serif !important;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vh;
+  max-width: 1300px;
+  margin: 0 auto;
 }
