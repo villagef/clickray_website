@@ -56,7 +56,7 @@
 
   &__subtitle {
     max-width: 600px;
-    color: #ddd;
+    color: $FontColorLight;
   }
 
   &__boxes {
@@ -79,7 +79,7 @@
     }
 
     p {
-      color: #ddd;
+      color: $FontColorLight;
     }
   }
 }
@@ -132,6 +132,119 @@
       cursor: pointer;
       outline: none;
       margin-bottom: 20px;
+    }
+  }
+}
+
+.sectionFour {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+
+  &__title {
+    font-size: 1.25rem;
+    color: $MainColor;
+    font-weight: bolder;
+  }
+
+  &__subtitle {
+    color: $FontColorLight;
+  }
+
+  &__banner {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: $MainColor;
+    color: $FontColor;
+  }
+
+  &__wrapper {
+    max-width: 1300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 auto;
+
+    &::before {
+      content: "WORKHARD";
+      position: absolute;
+      top: -40px;
+      left: 10rem;
+      font-size: 13rem;
+      font-weight: bold;
+      z-index: 0;
+      color: $LogoColor;
+      opacity: 0.4;
+    }
+  }
+
+  &__banner--left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    position: relative;
+    padding: 10px 50px;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+
+    button {
+      padding: 5px 30px;
+      background-color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      margin: 20px 0;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: -5px;
+        width: 20px;
+        height: 20px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        width: 20px;
+        height: 20px;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+      }
+    }
+  }
+
+  &__banner--right {
+    width: 40%;
+    height: 100%;
+    position: relative;
+
+    img {
+      height: 90%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      object-position: bottom;
     }
   }
 }
