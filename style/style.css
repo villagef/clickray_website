@@ -733,6 +733,7 @@ html {
 @media screen and (max-width: 768px) {
   .footer__right {
     width: 100%;
+    padding-right: 40px;
   }
 }
 
@@ -748,7 +749,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .footer__right div:last-of-type {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 }
 

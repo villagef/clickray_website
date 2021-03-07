@@ -428,6 +428,7 @@
 
     @include tablet {
       width: 100%;
+      padding-right: 40px;
     }
 
     div {
@@ -440,7 +441,7 @@
       margin-left: 50px;
 
       @include tablet {
-        margin-left: 40px;
+        margin-left: 20px;
       }
     }
 
